@@ -1,0 +1,7 @@
+C:\Users\motra\Desktop\C#\s_sharp\s_sharp\bin\Debug\s_sharp.exe.config
+C:\Users\motra\Desktop\C#\s_sharp\s_sharp\bin\Debug\s_sharp.exe
+C:\Users\motra\Desktop\C#\s_sharp\s_sharp\bin\Debug\s_sharp.pdb
+C:\Users\motra\Desktop\C#\s_sharp\s_sharp\obj\Debug\s_sharp.csprojAssemblyReference.cache
+C:\Users\motra\Desktop\C#\s_sharp\s_sharp\obj\Debug\s_sharp.csproj.CoreCompileInputs.cache
+C:\Users\motra\Desktop\C#\s_sharp\s_sharp\obj\Debug\s_sharp.exe
+C:\Users\motra\Desktop\C#\s_sharp\s_sharp\obj\Debug\s_sharp.pdb
