@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{37DF772E-9852-4C96-B44B-5B743BD4393A}</ProjectGuid>
+    <ProjectGuid>{412504C5-895D-45B3-89F5-9FE7DD6B9AA6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>s_sharp</RootNamespace>
-    <AssemblyName>s_sharp</AssemblyName>
+    <RootNamespace>bruh</RootNamespace>
+    <AssemblyName>bruh</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
