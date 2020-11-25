@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,23 +10,37 @@ namespace bruh
     {
         static void Main(string[] args)
         {
-            string stroka;
-            int sum = 0;
-            stroka = Console.ReadLine();
-            try
+            int stroka, stolb;
+            stroka = int.Parse(Console.ReadLine());
+            stolb = int.Parse(Console.ReadLine());
+            int[,] mas = new int[stroka, stolb];
+            for (int i = 0; i < mas.GetLength(0); ++i)
             {
-                int a = int.Parse(stroka);
-                while (a != 0)
+                for (int j = 0; j < mas.GetLength(1); ++j)
                 {
-                    sum += a % 10;
-                    a /= 10;
+                    mas[i, j] = int.Parse(Console.ReadLine());
                 }
             }
-            catch (Exception)
+            try 
+            {
+                Console.WriteLine(2 / mas[0, 0]);
+            }
+            catch
             {
                 Console.WriteLine("Lox");
             }
-            Console.WriteLine(sum);
+            finally
+            {
+                Console.WriteLine("Krasavec");
+            }
+            for (int i = 0; i < mas.GetLength(0); ++i)
+            {
+                for (int j = 0; j < mas.GetLength(1); ++j)
+                {
+                    Console.Write(Convert.ToString(mas[i, j]) + " ");
+                }
+                Console.WriteLine();
+            }
         }
     }
 }
