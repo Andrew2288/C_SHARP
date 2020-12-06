@@ -8,38 +8,36 @@ namespace bruh
 {
     class Program
     {
+        static void split(ref int[] mas, in string stroka, out int k)
+        {
+            string chislo = "";
+            int i = 0;
+            k = 0;
+            while (i < stroka.Length)
+            {
+                if (stroka[i] != ' ')
+                {
+                    chislo += stroka[i];
+                }
+                if (((stroka[i] == ' ') || (i == (stroka.Length - 1))) && (chislo != ""))
+                {
+                    mas[k] = int.Parse(chislo);
+                    k += 1;
+                    chislo = "";
+                }
+                i += 1;
+            }
+        }
+
         static void Main(string[] args)
         {
-            int stroka, stolb;
-            stroka = int.Parse(Console.ReadLine());
-            stolb = int.Parse(Console.ReadLine());
-            int[,] mas = new int[stroka, stolb];
-            for (int i = 0; i < mas.GetLength(0); ++i)
+            int[] mas = new int[100000000];
+            string stroka = Console.ReadLine();
+            int k;
+            split(ref mas, stroka, out k);
+            for (int i = 0; i < k; i++)
             {
-                for (int j = 0; j < mas.GetLength(1); ++j)
-                {
-                    mas[i, j] = int.Parse(Console.ReadLine());
-                }
-            }
-            try 
-            {
-                Console.WriteLine(2 / mas[0, 0]);
-            }
-            catch
-            {
-                Console.WriteLine("Lox");
-            }
-            finally
-            {
-                Console.WriteLine("Krasavec");
-            }
-            for (int i = 0; i < mas.GetLength(0); ++i)
-            {
-                for (int j = 0; j < mas.GetLength(1); ++j)
-                {
-                    Console.Write(Convert.ToString(mas[i, j]) + " ");
-                }
-                Console.WriteLine();
+                Console.Write(Convert.ToString(mas[i]) + " ");
             }
         }
     }

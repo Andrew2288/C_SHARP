@@ -1,0 +1,7 @@
+C:\Users\motra\OneDrive\Desktop\C#\n_merni_massiv\n_merni_massiv\obj\Debug\n_merni_massiv.csprojAssemblyReference.cache
+C:\Users\motra\OneDrive\Desktop\C#\n_merni_massiv\n_merni_massiv\obj\Debug\n_merni_massiv.csproj.CoreCompileInputs.cache
+C:\Users\motra\OneDrive\Desktop\C#\n_merni_massiv\n_merni_massiv\bin\Debug\n_merni_massiv.exe.config
+C:\Users\motra\OneDrive\Desktop\C#\n_merni_massiv\n_merni_massiv\bin\Debug\n_merni_massiv.exe
+C:\Users\motra\OneDrive\Desktop\C#\n_merni_massiv\n_merni_massiv\bin\Debug\n_merni_massiv.pdb
+C:\Users\motra\OneDrive\Desktop\C#\n_merni_massiv\n_merni_massiv\obj\Debug\n_merni_massiv.exe
+C:\Users\motra\OneDrive\Desktop\C#\n_merni_massiv\n_merni_massiv\obj\Debug\n_merni_massiv.pdb

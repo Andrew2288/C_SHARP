@@ -1,0 +1,7 @@
+C:\Users\motra\OneDrive\Desktop\C#\bruh\bruh\obj\Debug\split.csprojAssemblyReference.cache
+C:\Users\motra\OneDrive\Desktop\C#\bruh\bruh\obj\Debug\split.csproj.CoreCompileInputs.cache
+C:\Users\motra\OneDrive\Desktop\C#\bruh\bruh\obj\Debug\bruh.exe
+C:\Users\motra\OneDrive\Desktop\C#\bruh\bruh\obj\Debug\bruh.pdb
+C:\Users\motra\OneDrive\Desktop\C#\bruh\bruh\bin\Debug\bruh.exe.config
+C:\Users\motra\OneDrive\Desktop\C#\bruh\bruh\bin\Debug\bruh.exe
+C:\Users\motra\OneDrive\Desktop\C#\bruh\bruh\bin\Debug\bruh.pdb
